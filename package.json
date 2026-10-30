@@ -1,0 +1,16 @@
+{
+  "name": "vit-pune-campus-explorer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Student-built, static guide to VIT Pune clubs, deadlines and academic windows. No build step.",
+  "scripts": {
+    "test": "node tests/smoke.test.js",
+    "check": "node --check script.js && node --check tracker.js && node --check data.js && node --check data-verified.js && node --check data-extra.js && node --check sw.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0"
+  }
+}
